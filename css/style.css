@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 52px;
+  color: #163162;
+  font-weight: 700;
+}
+p {
+  color: #163162;
+}
+body {
+}
+header {
+  padding: 12px 0;
+  border-bottom: 2px solid rgb(223, 222, 222);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 8%;
+}
+.logo a {
+}
+.logo a img {
+  width: 100%;
+}
+.menu {
+}
+.menu ul {
+}
+.menu ul li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 70px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #34528a;
+  transition: 0.5s;
+}
+.menu ul li a:hover {
+  color: #1065ff;
+  transition: 0.5s;
+}
+/*********** banner section *************/
+.banner {
+  padding: 80px 0;
+  text-align: center;
+}
+.container2 {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.banner h1 {
+  line-height: 70px;
+  word-spacing: 8px;
+}
+.banner h1 span {
+  color: #1065ff;
+}
+.banner p {
+  line-height: 28px;
+  padding: 20px 40px 40px;
+}
+.banner-img {
+  width: 60%;
+  margin: 0 auto;
+}
+.banner-img img {
+  width: 100%;
+}
+
+/* *************** service section *************/
+.services {
+  padding: 60px 0;
+}
+.container3 {
+  width: 60%;
+  margin: 0 auto;
+}
+.service {
+  display: flex;
+  justify-content: space-between;
+}
+.service-left {
+  text-align: right;
+}
+.service-left h1 {
+  color: rgb(241, 103, 126);
+  font-size: 45px;
+}
+.service-left p {
+  line-height: 26px;
+  padding-top: 15px;
+}
+.service-right {
+  text-align: left;
+  padding-left: 30px;
+}
+.service-right h1 {
+}
+/* ****** feature section********** */
+.features {
+  padding: 100px 0;
+}
+.feature-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.f-item {
+  flex-basis: 30%;
+  padding: 70px 40px;
+}
+.one {
+  background-color: #feebed;
+}
+.two {
+  background-color: #eaf9f4;
+}
+.three {
+  background-color: #fff8e8;
+}
+.f-img {
+}
+.f-img img {
+}
+.f-item h4 {
+  text-align: left;
+  color: #163162;
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 22px;
+}
+.f-item p {
+  text-align: left;
+  line-height: 25px;
+  padding-top: 20px;
+}
+/* ***** footer section **** */
+.footer {
+  background-color: #109bff;
+  padding: 40px;
+  text-align: center;
+}
+.footer h6 {
+  color: rgba(255, 255, 255, 0.637);
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+}
+.bolt {
+  letter-spacing: 1.7px;
+  font-weight: 700;
+  color: white;
+}
